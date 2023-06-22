@@ -1,5 +1,5 @@
 # 0x7 Unpacker
-0x7 Unpackeer is an open-source deobfuscator for 0x7 Obfuscator (Old Version of Inx Obfuscator, mainly pasted from ConfuserEx). License: MIT.
+0x7 Unpacker is an open-source deobfuscator for 0x7 Obfuscator (Old Version of Inx Obfuscator, mainly pasted from ConfuserEx). License: MIT.
 
 ## Usage
 Compile
