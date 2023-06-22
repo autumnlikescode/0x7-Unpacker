@@ -13,13 +13,12 @@ Drag and Drop Packed assembly onto Compiled Unpacker exe
  * Int Math
  * Constants Outliner (Strings & Int)
  * Reference Proxy
-
+ * Constant Mutation - Use TheProxy Mutation Cleaner
 
 ## Semi - Supported Protections
  * AntiVM - Only works without CFLOW
 
 ## Todo / Currently Adding 
- * Constant Mutation - Nearly done
  * Control Flow - Low is supported but not included. Max will be the next done, nothing in-between for now.
  * Local To Field
 
@@ -27,4 +26,4 @@ Drag and Drop Packed assembly onto Compiled Unpacker exe
  * [Kaidoz](https://github.com/Kaidoz) - Proxy Methods, Constants Outliner
  * [0xd4d](https://github.com/0xd4d) - [dnlib](https://github.com/0xd4d/dnlib)
  * [TheProxy](https://github.com/TheProxyRE) - [String Tutorial](https://github.com/TheProxyRE/Deobfuscation-Tutorials/tree/master/1.Strings)
- * [TheProxy](https://github.com/TheProxyRE) - Mutations, provided I had to unpack your cleaner because you used VMP which was WHY!?!
+ * [TheProxy](https://github.com/TheProxyRE) - Mutation Cleaner. I wish I could add this myself but I did not understand and Proxy obfuscated his cleaner :(
