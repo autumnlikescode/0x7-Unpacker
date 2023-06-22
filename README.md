@@ -21,3 +21,9 @@ Drag and Drop Packed assembly onto Compiled Unpacker exe
  * Reference Proxy - Code Finished just implementing
  * Control Flow - Low is supported but not included. Max will be the next done, nothing in-between for now.
  * Local To Field
+
+## Special thanks
+ * [Kaidoz](https://github.com/Kaidoz) - Proxy Methods, Constants Outliner
+ * [0xd4d](https://github.com/0xd4d) - [dnlib](https://github.com/0xd4d/dnlib)
+ * [TheProxy](https://github.com/TheProxyRE) - [String Tutorial](https://github.com/TheProxyRE/Deobfuscation-Tutorials/tree/master/1.Strings)
+ * [TheProxy](https://github.com/TheProxyRE) - Mutations, provided I had to unpack your cleaner because you used VMP which was WHY!?!
