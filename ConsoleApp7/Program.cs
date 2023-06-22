@@ -7,6 +7,7 @@ using System.IO;
 using dnlib.DotNet.Emit;
 using System.Collections.Generic;
 using dnlib.DotNet.Writer;
+using ConsoleApp7.ProxyMethods;
 
 namespace ConsoleApp7
 {
@@ -17,23 +18,25 @@ namespace ConsoleApp7
         static void Main(string[] args)
         {
             module = ModuleDefMD.Load(args[0]);
-            
+
             //Math.CleanBasicMathMutation(module);
-/*
-            AntiAntiDump(module);
-            AntiAntiVM(module);*/
-            Math.CleanMath(module);
+            /*
+                        AntiAntiDump(module);
+                        AntiAntiVM(module */
+            ProxyFixer.RemoveProxyCalls(module);
+            ProxyFixer.RemoveJunksMethods(module);
+          /*  Math.CleanMath(module);
             Math.CleanMath2(module);
             Math.CleanMath3(module);
             Math.CleanMath4(module);
             Math.CleanFirstGradeMath(module);
             Math.CleanSecondGradeMath(module);
-            //   Math.CleanBasicMathMutation(module);
+                                                        //   Math.CleanBasicMathMutation(module);
             Math.FinishMath();
             StringDecryption(module);
             StringDecryptionSecondPass(module);
             StringDecryptionSecondPassWithMathEncryption(module);
-            StringDecryptionSecondPassWithMathMutation(module);
+            StringDecryptionSecondPassWithMathMutation(module);*/
 
             //   StringDecryptionSecondPass(module);
 
