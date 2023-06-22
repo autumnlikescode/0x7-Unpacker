@@ -11,14 +11,15 @@ Drag and Drop Packed assembly onto Compiled Unpacker exe
  * Anti Dump
  * Strings Encoding (Compress / encode strings) XOR can be decrypted with de4dot, therefore it was not added.
  * Int Math
+ * Constants Outliner (Strings & Int)
+ * Reference Proxy
+
 
 ## Semi - Supported Protections
  * AntiVM - Only works without CFLOW
 
 ## Todo / Currently Adding 
  * Constant Mutation - Nearly done
- * Constants Outliner
- * Reference Proxy - Code Finished just implementing
  * Control Flow - Low is supported but not included. Max will be the next done, nothing in-between for now.
  * Local To Field
 
