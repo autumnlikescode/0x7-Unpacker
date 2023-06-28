@@ -3,8 +3,6 @@
 
 This is my first time making an unpacker, excuse the messy code.
 
-[Virustotal Scan [9/71] (EmpyreanFixer.exe)](https://www.virustotal.com/gui/file/b7e509b454a07826fd678797b3266762f1d40347d17133151eb7e1bfc76f7187/behavior)
-
 ## Usage
 Compile
 Drag and Drop Packed assembly onto Compiled Unpacker exe
